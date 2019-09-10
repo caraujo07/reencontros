@@ -6,13 +6,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 import SearchBar from './components/SearchBar/SearchBar.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     SearchBar
   }
 }
